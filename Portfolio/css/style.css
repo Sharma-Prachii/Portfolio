@@ -1,0 +1,82 @@
+@import 'utilities.css';
+:root
+{
+    --primary:#3DCDF3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.brand{
+    width: 250px;
+    height: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+header{
+    background: var(--dark);
+    clip-path:circle(0 0,100% 0,100% 100%,80% 90%,0 100%) ;
+}
+.container{
+    max: width 1152px;
+    padding:0 15px;
+    margin:0 auto;
+    }
+     header nav .left a{
+    color:var(--pure);
+   text-decoration: none;
+   margin-right: 2rem;
+   text-transform: uppercase;
+   transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: #898989 ;
+}
+header nav{
+    padding: 2rem 0;
+}
+header  nav .brand{
+    margin: right 3rem;;
+}
+.hero{
+    padding:3rem 0;
+}
+.brand {
+    float:left;
+    margin-left: 50px;
+}
+}
+.hero img{
+ width: 800px;
+}
+.hero{
+    color:var(--pure); 
+}
+.hero .right h6{
+  font-size: 1.6rem;
+   color: chocolate;
+   margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.about .social{
+    display: flex;
+}
+.hero .right{
+    margin-top: -7rem;
+}
